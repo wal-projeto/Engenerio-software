@@ -1,1 +1,3 @@
-CURSO DE GIT
+CURSO DE GIT:
+- git log 
+- git Revert
