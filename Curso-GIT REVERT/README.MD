@@ -67,8 +67,9 @@ header
 
 NO GIT GRAPH VISUALIZAMOS AS DUAS BRNCHs:
 
-- main/origin   header
+- main/origin       header
 
-- git checkout <nome-da-branch>  ->>> navegamos entra as branches
+- git checkout "nome-da-branch"   ->>> navegamos entra as branches, sendo necessario dar um git checkout para 
+ir até ela.
 
-- git checkou -b <nome-da-branch>  ->>> CRIAMOS e NAVEGAMOS entre as branches
+- git checkou -b "nome-da-branch"   ->>> CRIAMOS e já NAVEGAMOS DIRETAMENTE na branches criada, nao sendo necessario dar um git checkout para ir até ela.
