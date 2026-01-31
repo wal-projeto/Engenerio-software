@@ -1,5 +1,7 @@
 
-APRENDENDO GIT:
+APRENDENDO A CRIAR REPOSITORIO
+
+APRENDENDO OS COMANDOS DO GIT:
 
 - Clonando o repositorio do github para o pc atraves da linha de comando do terminal do VS Code
 e atraves do git bash
@@ -7,7 +9,7 @@ e atraves do git bash
  - aprendendo:
   git add . ; 
   git commit -m "nome" ;  
-  git pull e 
+  git pull (atualizando remota do projeto)
   git push origin "nome branch"
 
 
@@ -35,16 +37,19 @@ git Local x git Remoto:
     git revert
     git reset
 
--BRANCHS:
+-BRANCHS(RAMIFICAÇÃO):
     git checkout "nome da branch"
     git checkout -b "nome da branch"
     git branch -d "nome da branch"
     git branch -D "nome da branch"
 
-- MESCLANDO BRANCHES
+- MESCLANDO BRANCHES (MERGE)
     git merge  -> mesclando branch principal e branch secundaria
 resolvendo conflitos:
     Accept Current Change
     Accept Incoming Change
     Accept Both Changes
+
+-REPOSITORIO OU ARQUIVO GIT IGNORE:
+    criando um arquivo .gitignore e comitando sem os conteudos que listamos nele.
 
