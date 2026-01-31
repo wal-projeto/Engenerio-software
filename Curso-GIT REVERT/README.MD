@@ -73,3 +73,12 @@ NO GIT GRAPH VISUALIZAMOS AS DUAS BRNCHs:
 ir até ela.
 
 - git checkou -b "nome-da-branch"   ->>> CRIAMOS e já NAVEGAMOS DIRETAMENTE na branches criada, nao sendo necessario dar um git checkout para ir até ela.
+
+- git branch -d "nome da branch"   ->> deleta uma branch, mas verifica se existe alguma coisa na branch, se estiver
+vazia nao apresenta nenhum erro, mas se tiver algun conteudo na branch apresentará um erro.
+VISUALIZACAO DO TERMINAL:
+error: The branch "nome" is not fully merged. -> A branch "nome" nao foi mesclada ainda
+If you are sure you want to delete it, rum "git branch -D "nome" ' -> Se vc ten certeza que deseja deletar ela, 
+executi git branch -D "nome"
+
+- git branch -D "nome da branch"  ->>> deleta uma branch, mesmo tendo conteúdo dentro dela.
