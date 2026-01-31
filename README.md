@@ -53,3 +53,11 @@ resolvendo conflitos:
 -REPOSITORIO OU ARQUIVO GIT IGNORE:
     criando um arquivo .gitignore e comitando sem os conteudos que listamos nele.
 
+
+- PROGRAMACAO E ESTRUTURA DE DADOS
+    - Pseudocodigo : ferramenta web (https://portugol.dev/) para praticar. 
+    - Arquivo EXEMPLO_PSEUDOCODIGO.txt -> exemplo de um pseudocodigo para testar na ferramenta portugol.dev
+
+- TIPOS DE DADOS
+- 
+

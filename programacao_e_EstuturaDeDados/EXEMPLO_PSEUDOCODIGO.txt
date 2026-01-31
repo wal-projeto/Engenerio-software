@@ -1,0 +1,51 @@
+programa  
+{     
+    funcao inicio()  
+    {  
+        imprime_linha()   // chama a funcão que vai imprimir as linhas trasejadas ----------
+        informacoes("Portugol",2.0,"UNIVALI")  // chama a funcao e leva a ela os parametros () que serão impressos na saida
+        imprime_linha()  
+        informacoes("Java",1.7,"Oracle")          
+        imprime_linha()  
+        informacoes("Ruby",2.0,"ruby-lang.org")  
+        imprime_linha()  
+        informacoes("Visual Basic",6.0,"Microsoft")  // chama a funcao, mas como a condicao é igual a Visual Basic a funcao retorna e não imprime nada
+        imprime_linha()  
+  
+    }  // fechamento da função inicio
+  
+     
+    funcao vazio imprime_linha()    //Função de retorno vazio que desenha uma linha no console 
+    {  
+        escreva("\n---------------------------------------------------------------------------------------------")  
+    }  
+  
+    
+    funcao vazio informacoes(cadeia nome, real versao, cadeia fornecedor)   //Função de retorno vazio que formata uma saida com base em seus parâmetros  
+    {  
+        se (nome == "Visual Basic")  
+        {  
+            retorne  
+        }  
+        escreva("\n")   // pula para linha seguinte
+        escreva("A linguagem ")  // escreve o texto: A linguagem 
+        escreva(nome)  // escreve o parametro recebido por essa funcao vazio informacoes(nome)
+        escreva(" encontra-se em sua versão: ")  
+        escreva(versao)  
+        escreva(" e é fornecida pelo(a) ")  
+        escreva(fornecedor)  
+    }  
+}  
+
+TERMINAL DE SAIDA DO CODIGO:
+
+---------------------------------------------------------------------------------------------
+A linguagem Portugol encontra-se em sua versão: 2 e é fornecida pelo(a) UNIVALI
+---------------------------------------------------------------------------------------------
+A linguagem Java encontra-se em sua versão: 1.7 e é fornecida pelo(a) Oracle
+---------------------------------------------------------------------------------------------
+A linguagem Ruby encontra-se em sua versão: 2 e é fornecida pelo(a) ruby-lang.org
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+Programa finalizado. Tempo de execução: 167 milissegundos
