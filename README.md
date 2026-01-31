@@ -40,3 +40,11 @@ git Local x git Remoto:
     git checkout -b "nome da branch"
     git branch -d "nome da branch"
     git branch -D "nome da branch"
+
+- MESCLANDO BRANCHES
+    git merge  -> mesclando branch principal e branch secundaria
+resolvendo conflitos:
+    Accept Current Change
+    Accept Incoming Change
+    Accept Both Changes
+

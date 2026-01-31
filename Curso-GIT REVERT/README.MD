@@ -78,7 +78,29 @@ ir até ela.
 vazia nao apresenta nenhum erro, mas se tiver algun conteudo na branch apresentará um erro.
 VISUALIZACAO DO TERMINAL:
 error: The branch "nome" is not fully merged. -> A branch "nome" nao foi mesclada ainda
-If you are sure you want to delete it, rum "git branch -D "nome" ' -> Se vc ten certeza que deseja deletar ela, 
-executi git branch -D "nome"
+If you are sure you want to delete it, rum "git branch -D "nome" ' -> Se vc ten certeza que deseja deletar ela, execute git branch -D "nome"
 
 - git branch -D "nome da branch"  ->>> deleta uma branch, mesmo tendo conteúdo dentro dela.
+
+
+MESCLANDO BRANCHES:
+- git checkout -b secundaria  -> crio uma branch 'secundaria' com o -b  para ir até ela. crio conteudos nela
+ 
+- git merge secundaria -> mesclando essa merge secundaria a branch principal, ou seja, copia tudo da secundaria para principal. Depois de Meclanda se volto a adicionar mais conteudo na branch secundaria e tambem na branch principal, para um mesmo conteudo, e faço outro merge com a principal , ele vai apresentar um conflito, pois existe conteudo na principal que na secundaria no tem e vice e versa.
+
+- O arquivo vai aparecer com um sinal de exclamação e no arquivo poderemos escolher o que desejamos:
+    - Accept current change (aceitar o que tenho somente na branch main)
+    - Accept Incoming Change (aceitar somente o que tenho na branch secundaria)
+    - Accept Both Changes (aceitar ambas as auterações)
+    - inclusive depois de aceitar ambas, posso corrigir, apagar informaçoes indesejadas e salvar o arquivo
+
+por fim atualizar no GitHub:  add . , commit -m "resolvendo conflitos no arquivo x " e git push origin branch  ->> importante adicionar e comitar novamente.
+
+
+
+ARQUIVO GITIGNORE: 
+- Dados, pastas ou arquivos sensiveis ou informações que nao valem a pena ser carregadas, ou seja, serão ignorados no comite para que nao fiquem expostos a terceiros.
+
+- criamos o arquivo que inicia com um ponto .gitignore - é um arquivo padrão e dentro dele listamos as 
+pastas e arquivos que desejamos que sejam ignorados no comite
+
