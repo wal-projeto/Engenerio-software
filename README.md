@@ -1,4 +1,12 @@
 
+Objetivo de Estudo -	Melhor IA/Ferramenta para aprender a codificar:
+
+Entender lógica e bugs - 	Claude (Sonnet 3.5)
+Criar projetos e praticar -	Cursor AI
+Autocompletar e Sintaxe- GitHub Copilot
+Teoria e exemplos rápidos- 	ChatGPT-4o
+
+
 APRENDENDO A CRIAR REPOSITORIO
 
 APRENDENDO OS COMANDOS DO GIT:

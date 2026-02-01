@@ -50,7 +50,8 @@ public class exercicio_java_metros {
         System.out.println("=== Conversor de Metros para Centimetros ===");
         System.out.print("Digite o valor em metros: ");
         
-        // Lendo o valor digitado pelo usuário e armazenando na variável metros
+        // Lendo o valor digitado pelo usuário e armazenando na variável metros: no java digito com virgula
+        // os numeros decimais. exemplo 2,8  3,9 etc
         metros = entrada.nextDouble();
         
         // Calculando a conversão: metros * fator de conversão
