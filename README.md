@@ -66,6 +66,8 @@ resolvendo conflitos:
     - Pseudocodigo : ferramenta web (https://portugol.dev/) para praticar. 
     - Arquivo EXEMPLO_PSEUDOCODIGO.txt -> exemplo de um pseudocodigo para testar na ferramenta portugol.dev
 
-- TIPOS DE DADOS
-- 
+    - Tipos de Dados 
+    - Estrutura de Dados
+    - Exercicios
+
 
