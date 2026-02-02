@@ -1,8 +1,8 @@
 /**
  * 
  * INSTRUÇÕES PARA COMPILAR E EXECUTAR O PROGRAMA JAVA:
- * cd programacao_e_EstuturaDeDados
-    Digite no terminal : exercicio_java_metros.java   # Compila
+    cd programacao_e_EstuturaDeDados
+    Digite no terminal : javac exercicio_java_metros.java   # Compila
     Depois digite :      java exercicio_java_metros   # Executa
 
     ou ABRA O ARQUIVO JAVA E CLIQUE EM "RUN" NO SEU IDE
@@ -16,8 +16,10 @@
  * - Operacoes matematicas
  * - Impressao de resultados
  * - Comentarios para documentacao
- */
+ 
 
+Prorama que calcual a conversão de metros para centimetros
+ */
 package programacao_e_EstuturaDeDados;
 
 import java.util.Scanner; // Importa a classe Scanner para ler entrada do usuário

@@ -135,3 +135,15 @@ OPERADORES ARITMETICOS:
         if "maçã" < "banana": 
         print("maçã vem antes de banana no dicionário")
 
+    AGORA VAMOS COMECAR A PROGRAMAR EM JAVA COM EXERCICIOS SIMPLES:
+
+    - exercicio_java_metros.java
+    - exercicio_java_valorPoupanca.java
+
+    OPERADORES CONDICIONAIS -> FLUXOGRAMA(ALGORATIMO)
+     - se, senao se, escolha(caso 1, caso 1 , caso contrario)
+     - comparadores == , != , > , >= , < , <=
+     - Múltiplas condições - Operadores Lógicos se(True) E (True) / se (True) OU (False)
+     - Tabela verdade A B  / A E B / A OU B / não A / não B
+
+
