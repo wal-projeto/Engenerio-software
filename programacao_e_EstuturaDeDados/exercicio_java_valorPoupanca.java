@@ -2,8 +2,6 @@
 calcula e mostra o rendimento após um mês de aplicação, sabendo
 que a poupança rende 5% ao mÊs  */
 
-package programacao_e_EstuturaDeDados;
-
 import java.util.Scanner;
 
 public class exercicio_java_valorPoupanca {
@@ -13,6 +11,7 @@ public class exercicio_java_valorPoupanca {
     Scanner entrada = new Scanner (System.in);
     double deposito = 0;
     double rendimento;
+    double valorRendimento;
     final double TAXA_RENDIMENTO = 0.05;
 
 
@@ -21,13 +20,13 @@ public class exercicio_java_valorPoupanca {
 
     deposito = entrada.nextDouble();
     
+    valorRendimento = deposito * TAXA_RENDIMENTO;
+
     rendimento = deposito + (deposito * TAXA_RENDIMENTO);
-    System.out.printf("O Rendimento de %.2f depositado em um mês é de %.2f" , deposito, rendimento);
+
+    System.out.printf("O Rendimento de %.2f depositado em um mês é de %.2f  dando um Total de: %.2f" , deposito, valorRendimento, rendimento);
     entrada.close();
-
     }
-
-
 }
 
 

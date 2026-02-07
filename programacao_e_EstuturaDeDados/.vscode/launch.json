@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exercicio_java_valorPoupanca",
+            "request": "launch",
+            "mainClass": "exercicio_java_valorPoupanca",
+            "projectName": "programacao_e_EstuturaDeDados_9a7ba5a9"
+        },
+        {
+            "type": "java",
+            "name": "exercicio_java_metros",
+            "request": "launch",
+            "mainClass": "exercicio_java_metros",
+            "projectName": "programacao_e_EstuturaDeDados_9a7ba5a9"
+        },
+        {
+            "type": "java",
+            "name": "exercicio_java_arvoreNatal",
+            "request": "launch",
+            "mainClass": "exercicio_java_arvoreNatal",
+            "projectName": "programacao_e_EstuturaDeDados_9a7ba5a9"
+        },
+        {
+            "type": "java",
             "name": "exercicio_java_ZeMaiorqueChico",
             "request": "launch",
             "mainClass": "exercicio_java_ZeMaiorqueChico",
