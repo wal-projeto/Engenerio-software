@@ -140,10 +140,19 @@ OPERADORES ARITMETICOS:
     - exercicio_java_metros.java
     - exercicio_java_valorPoupanca.java
 
-    OPERADORES CONDICIONAIS -> FLUXOGRAMA(ALGORATIMO)
+    OPERADORES CONDICIONAIS -> FLUXOGRAMA(ALGORITIMO)
      - se, senao se, escolha(caso 1, caso 1 , caso contrario)
      - comparadores == , != , > , >= , < , <=
      - Múltiplas condições - Operadores Lógicos se(True) E (True) / se (True) OU (False)
      - Tabela verdade A B  / A E B / A OU B / não A / não B
+
+
+    LACO DE REPETICAO:
+    - While(True)  executa codigo enquanto a condição for verdadeira - condição definida- Não sabemos quantas vezes se repetira o laco e estamos aguardando algo ser verdadeiro
+
+    - For (executa codigo enquanto a condicão for verdadeira) - repetições definidas-quando sabemos quantas vezes vamos ter que repetir o código
+
+    - Do (executa o codigo dentro do laça) Enquanto(a condição for verdadeira)
+
 
 
