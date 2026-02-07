@@ -2,6 +2,11 @@
 calcula e mostra o rendimento após um mês de aplicação, sabendo
 que a poupança rende 5% ao mÊs  */
 
+
+// ctrol + shift + M para ver erros de sintaxe, 
+// ctrl + shift + F para formatar o código, 
+// ctrl + shift + O para organizar os imports
+
 import java.util.Scanner;
 
 public class exercicio_java_valorPoupanca {

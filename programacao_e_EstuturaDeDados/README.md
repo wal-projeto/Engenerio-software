@@ -153,6 +153,3 @@ OPERADORES ARITMETICOS:
     - For (executa codigo enquanto a condicão for verdadeira) - repetições definidas-quando sabemos quantas vezes vamos ter que repetir o código
 
     - Do (executa o codigo dentro do laça) Enquanto(a condição for verdadeira)
-
-
-

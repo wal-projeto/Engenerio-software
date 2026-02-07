@@ -1,6 +1,10 @@
 // Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Ze tem 1,10 metros e cresce 3 centímetros por ano.
 //  Escreva um programa que calcule e imprima quantos anos serão necessários para que Ze seja maior que Chico.
 
+// ctrol + shift + M para ver erros de sintaxe, 
+// ctrl + shift + F para formatar o código, 
+// ctrl + shift + O para organizar os imports
+
 import java.util.Scanner;
 
 public class exercicio_java_ZeMaiorqueChico {
@@ -20,5 +24,6 @@ public class exercicio_java_ZeMaiorqueChico {
         System.out.println("Anos necessários para que Ze seja maior que Chico: " + anos);
         System.out.println("Altura final de Chico: " + String.format("%.2f", alturaChico) + " metros");
         System.out.println("Altura final de Ze: " + String.format("%.2f", alturaZe) + " metros");
+        entrada.close();
     }
 }

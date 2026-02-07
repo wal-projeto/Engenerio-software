@@ -1,3 +1,7 @@
+// ctrol + shift + M para ver erros de sintaxe, 
+// ctrl + shift + F para formatar o código, 
+// ctrl + shift + O para organizar os imports
+
 public class exercicio_java_arvoreNatal {
         
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 /*programa lê 10 valores e apresenta na tela */
 
+// ctrol + shift + M para ver erros de sintaxe, 
+// ctrl + shift + F para formatar o código, 
+// ctrl + shift + O para organizar os imports
 
 import java.util.Scanner;
 
