@@ -68,6 +68,12 @@ resolvendo conflitos:
 
     - Tipos de Dados 
     - Estrutura de Dados
-    - Exercicios
+    - AGORA VAMOS COMECAR A PROGRAMAR EM JAVA COM EXERCICIOS SIMPLES:
+    - exercicio_java_metros.java
+    - exercicio_java_valorPoupanca.java
+
+    - Operadores Condicionais -> fluxograma(algoritmo)
+    -exercicio_java_condicinal1.java
+    
 
 
