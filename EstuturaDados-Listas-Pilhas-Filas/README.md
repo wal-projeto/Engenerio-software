@@ -67,3 +67,8 @@ VALORES, TODOS DO MESMO TIPO
     INSERTION SORT
     REDIX SORT
     MERGE SORT (MUITO BOM)
+
+    DESAFIO LANDING PAGE -> Construindo uma, que estará no repositorio do GitHub chamado: RID221037_Desafio1
+    e na pasta no Windows repositorio_Desafio_Landing Page
+
+     coloquei os links da planilha de Base de Dados e também do seu site desenvolvido no Readme do repositório lá no GitHub
