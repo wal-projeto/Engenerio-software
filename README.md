@@ -17,7 +17,7 @@ e atraves do git bash
  - aprendendo:
   git add . ; 
   git commit -m "nome" ;  
-  git pull (atualizando remota do projeto)
+  git pull (atualizando remota do projeto do GitHub para a Maquinas)
   git push origin "nome branch"
 
 
@@ -53,13 +53,16 @@ git Local x git Remoto:
 
 - MESCLANDO BRANCHES (MERGE)
     git merge  -> mesclando branch principal e branch secundaria
-resolvendo conflitos:
+
+    - Resolvendo conflitos:
     Accept Current Change
     Accept Incoming Change
     Accept Both Changes
 
+
 -REPOSITORIO OU ARQUIVO GIT IGNORE:
     criando um arquivo .gitignore e comitando sem os conteudos que listamos nele.
+
 
 
 - PROGRAMACAO E ESTRUTURA DE DADOS
@@ -74,6 +77,3 @@ resolvendo conflitos:
 
     - Operadores Condicionais -> fluxograma(algoritmo)
     -exercicio_java_condicinal1.java
-    
-
-
